@@ -8,11 +8,14 @@
   font-optical-sizing: auto;
 }
 header {
-  background-color: #eed2be;
+  background-color: #FFF8F3;
+  background: url("../images/developer.png"),url("../images/header_bg.png"),#FFF8F3;
+  background-position: top left, bottom right;
+  background-repeat: no-repeat;
   padding-top: 50px;
 }
 nav{
-    /* width: 84%; */
+    width: 84%;
     max-width: 1347px;
     /* border: 2px solid red; */
     margin: 0 auto;
@@ -59,4 +62,65 @@ nav .menu a{
   font-size: 20px;
   font-weight: bold;
   cursor:pointer;
+}
+
+#banner{
+  /* border: 2px solid blue; */
+  margin: 47px 38px 0px 170px ;
+  display: flex;
+  align-items: center;
+}
+.banner-content h2{
+  font-size: 45px;
+  font-weight: 700;
+  color: #474747;
+}
+
+.banner-content h1{
+  font-size: 85px;
+  font-weight: bold;
+}
+.banner-content p{
+  font-size: 18px;
+  color: #757575;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.banner-content-btn{
+  display: flex;
+  gap: 20px;
+}
+.btn-logo{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+#banner .banner-image img{ 
+  max-width: 585px;
+  vertical-align: middle;
+}
+
+#about{
+  margin-top: 130px;
+}
+
+#about .about-container{
+  width: 84%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 131px 156px;
+  background-color: #FFF8F3;
+  text-align: center;
+}
+
+#about .about-container h2{
+  font-size: 36px;
+  font-weight: 700;
+  color: #474747;
+  margin-bottom: 20px;
+}
+#about .about-info{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
 }
