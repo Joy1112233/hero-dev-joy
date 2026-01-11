@@ -124,3 +124,125 @@ nav .menu a{
   justify-content: space-between;
   margin-top: 60px;
 }
+
+#my-work{
+  margin-top: 130px;
+}
+
+#my-work .my-work-container{
+  width: 84%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+#my-work .my-work-heading{
+  text-align: center;
+  margin: 0px 150px 0px 150px;
+}
+
+#my-work  .my-work-language{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#my-work .my-work-card{
+  width: 267px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.1) ;
+}
+#my-work .my-work-card p{
+  margin-top: 20px;
+}
+
+#resume{
+  margin-top: 130px;
+}
+
+#resume .resume-container{
+  /* background-color: aquamarine; */
+  width: 84%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+#resume .resume-heading{
+  text-align: center;
+  /* margin: 0px 150px 0px 150px; */
+}
+
+#resume .resume-card{
+  /* background-color: #FFF8F3; */
+  display: flex;
+  justify-content: space-between;
+  padding-top: 113px;
+}
+#resume .resume-education{
+  width: 511px;
+}
+
+#resume .resume-experience{
+  width: 511px;
+}
+
+#resume .resume-all-card{
+  margin-top: 20px;
+}
+#resume .resume-all-card p{
+  margin: 10px 0px 20px 0px;
+}
+
+#resume .resume-btn{
+  text-align: center;
+  margin-top: 50px;
+}
+
+#footer{
+  margin-top: 105px;
+  margin-left: 136px;
+  margin-right: 136px;
+}
+
+#footer .footer-container{
+  background-color:#FFF8F3;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 135px;
+  padding-bottom: 122px;
+}
+#footer .footer-icon{
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+}
+
+#footer .footer-message input{
+  display: block;
+  width: 120%;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+}
+
+#footer .footer-message textarea{
+  /* display: block; */
+  width: 120%;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+}
+
+#footer .footer-message button{
+  margin-top: 20px;
+  display: block;
+}
+
+#footer h2{
+  margin-bottom: 10px;
+}
